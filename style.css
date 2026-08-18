@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f8;
+    color: #222;
+    line-height: 1.6;
+}
+
+
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+
+header {
+    background: #111827;
+    color: white;
+    padding: 45px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+
+.designation {
+    color: #60a5fa;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact {
+    text-align: right;
+    font-size: 15px;
+}
+
+
+
+main {
+    background: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+
+section {
+    margin-bottom: 35px;
+}
+
+section:last-child {
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #111827;
+    font-size: 24px;
+    border-bottom: 3px solid #2563eb;
+    padding-bottom: 8px;
+    margin-bottom: 18px;
+}
+
+h3 {
+    color: #1f2937;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 8px;
+}
+
+
+
+.item {
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border-left: 4px solid #2563eb;
+}
+
+.institution {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills span {
+    background: #e0ecff;
+    color: #1d4ed8;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+
+.project {
+    background: #f8fafc;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-left: 4px solid #2563eb;
+    border-radius: 5px;
+}
+
+.project h3 {
+    color: #2563eb;
+}
+
+
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+
+
+.links {
+    display: flex;
+    gap: 15px;
+}
+
+.links a {
+    text-decoration: none;
+    background: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+
+
+footer {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+@media (max-width: 700px) {
+
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact {
+        text-align: left;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    main {
+        padding: 25px;
+    }
+}
